@@ -22,7 +22,7 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
-  width: 605px;
+  width: 610px;
   height: 50px;
 
 }
@@ -77,4 +77,86 @@ li {
   text-align: center;
   border: 0;
   border-radius: 5px;
+}
+
+.intro {
+  width: 1130px;
+  height: 500px;
+  margin: 30px auto 0 auto;
+  display: flex;
+  align-items: center;
+
+}
+
+.intro_info {
+  width: 520px;
+  height: 330px;  
+}
+
+.intro_info-header {
+  color: #2F281E;
+  font-family: 'Poppins', sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.intro_info-paragraph {
+  color: #544837;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.intro_info-btn {
+  display: flex;
+  align-items: center;
+}
+
+.intro_info-btn_start {
+  width: 175px;
+  height: 53px;
+  color: #FFFFFF;
+  background-color: #FF9900;
+  border-radius: 5px;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.intro_info-btn_video {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.intro_info-btn_video_playicon {
+  width: 0;
+  height: 0;
+  border-left: 20px solid #FF9900;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.intro_info-btn_video_text {
+  color: #FF9900;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-left: 10px;
+  text-decoration: underline;
+
 }
